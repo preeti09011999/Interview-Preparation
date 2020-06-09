@@ -5,7 +5,7 @@ class Solution {
         if(s.length()==0){
             return "";
         }
-        else if(s.length()==1){
+        else if(s.length()==1){ 
             return s;
         }else{
             for(int diag = 0;diag<s.length();diag++){
