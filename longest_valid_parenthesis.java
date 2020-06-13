@@ -15,6 +15,6 @@ class Solution {
                     st.push(i);
             }
         }
-        return res; 
+        return res;
     }
 }
