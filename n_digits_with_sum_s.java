@@ -21,7 +21,7 @@ public class Main{
                 System.out.print(dp[i][j]+" ");
             }
             System.out.println();
-        }
+        } 
         System.out.println(sol);
         return sol;
     }
