@@ -6,7 +6,7 @@ public class Main {
     public static void main(String args[]){
         // Scanner scn = new Scanner(System.in);
         ArrayList<Integer> a = new ArrayList<Integer>();
-        ArrayList<Integer> b = new ArrayList<Integer>();
+        ArrayList<Integer> b = new ArrayList<Integer>(); 
         a.add(-4);
         a.add(3);
         // a.add(8);
