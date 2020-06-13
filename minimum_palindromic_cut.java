@@ -24,7 +24,7 @@ public class Main{
                 si++;
             }
         }
-        
+         
         
         int mpc[][] = new int[str.length()][str.length()];
         
