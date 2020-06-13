@@ -1,4 +1,4 @@
-class Solution {
+class Solution { 
     public String longestPalindrome(String s) {
         boolean dp[][] = new boolean[s.length()][s.length()];
         int cd = 0;
