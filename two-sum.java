@@ -6,7 +6,7 @@ class Solution {
             
             int comp = target - nums[i];
             if(hm.containsKey(comp)){
-                arr[0] = hm.get(comp);
+                arr[0] = hm.get(comp); 
                 arr[1] = i;
             }
             hm.put(nums[i],i);
