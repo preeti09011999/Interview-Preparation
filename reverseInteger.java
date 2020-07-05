@@ -2,7 +2,7 @@ class Solution {
     public static int reverse(int x) {
         int n = 0;
         while(x != 0){
-            int n1 = x%10;
+            int n1 = x%10; 
             x /= 10;
             if(n > Integer.MAX_VALUE/10 || (n == Integer.MAX_VALUE/10 && n1 > 7)){
                 return 0;
