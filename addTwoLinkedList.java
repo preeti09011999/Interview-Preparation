@@ -10,7 +10,7 @@
  */
 class Solution {
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        int data = (l1.val+l2.val)%10;
+        int data = (l1.val+l2.val)%10; 
         ListNode res = new ListNode(data);
         int oc = (l1.val + l2.val)/10;
         
