@@ -1,5 +1,5 @@
 int i=0,j=0,k=a.length-1;
-while(j<a.length){
+while(j<=k){
   if(a[j] == 1){
     j++;
   } 
